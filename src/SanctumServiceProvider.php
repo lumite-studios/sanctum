@@ -132,6 +132,6 @@ class SanctumServiceProvider extends ServiceProvider
     {
         $kernel = app()->make(Kernel::class);
 
-        $kernel->prependToMiddlewarePriority(EnsureFrontendRequestsAreStateful::class);
+        // $kernel->prependToMiddlewarePriority(EnsureFrontendRequestsAreStateful::class);
     }
 }
